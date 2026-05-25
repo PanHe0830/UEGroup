@@ -6,7 +6,7 @@
 
 #include <Components/Image.h>
 #include <Kismet/GameplayStatics.h>
-PRAGMA_DISABLE_OPTIMIZATION
+
 void UTestUserWidget::NativeConstruct()
 {
     Super::NativeConstruct();
@@ -84,5 +84,3 @@ void UTestUserWidget::OnCultureChangedHandler(LanguageType NewCulture)
         }
     }
 }
-
-PRAGMA_ENABLE_OPTIMIZATION

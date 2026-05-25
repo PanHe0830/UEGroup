@@ -4,5 +4,6 @@ Intermediate/
 Saved/
 .vsconfig
 *.sln
+DerivedDataCache/
 Plugin/CSVTOPO/Binaries
 Plugin/CSVTOPO/Binaries/Intermediate

@@ -15,6 +15,15 @@ enum class LanguageType : uint8
     Other
 };
 
+UENUM(BlueprintType)
+enum class ESeasonType : uint8
+{
+    Spring  UMETA(DisplayName = "春"),
+    Summer  UMETA(DisplayName = "夏"),
+    Autumn  UMETA(DisplayName = "秋"),
+    Winter  UMETA(DisplayName = "冬")
+};
+
 USTRUCT(BlueprintType)
 struct FLocalizedTextureRow : public FTableRowBase
 {
