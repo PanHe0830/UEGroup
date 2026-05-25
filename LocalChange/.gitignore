@@ -1,0 +1,8 @@
+.vs
+Binaries/
+Intermediate/
+Saved/
+.vsconfig
+*.sln
+Plugin/CSVTOPO/Binaries
+Plugin/CSVTOPO/Binaries/Intermediate
