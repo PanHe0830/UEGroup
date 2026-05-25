@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CSVTOPO.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
+			"CSVTOPO.cpp.obj",
+			"CSVTOPOCommands.cpp.obj",
+			"CSVTOPOStyle.cpp.obj"
+		]
+	}
+}

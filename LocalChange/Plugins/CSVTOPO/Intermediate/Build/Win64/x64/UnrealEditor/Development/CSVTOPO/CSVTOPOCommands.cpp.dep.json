@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue\\uegroup\\localchange\\plugins\\csvtopo\\source\\csvtopo\\private\\csvtopocommands.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue\\uegroup\\localchange\\intermediate\\build\\win64\\x64\\localchangeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\ue\\uegroup\\localchange\\plugins\\csvtopo\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\csvtopo\\definitions.csvtopo.h",
+            "d:\\ue\\uegroup\\localchange\\plugins\\csvtopo\\source\\csvtopo\\public\\csvtopocommands.h",
+            "d:\\ue\\uegroup\\localchange\\plugins\\csvtopo\\source\\csvtopo\\public\\csvtopostyle.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
