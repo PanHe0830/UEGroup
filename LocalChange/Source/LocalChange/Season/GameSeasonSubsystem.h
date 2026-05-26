@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "Subsystems/GameInstanceSubsystem.h"
+#include "Type.h"
 #include "GameSeasonSubsystem.generated.h"
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnSeasonChanged, ESeasonType, NewSeasonType);
 
 /**
  * 
@@ -13,5 +16,11 @@ UCLASS()
 class LOCALCHANGE_API UGameSeasonSubsystem : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
-	
+protected:
+	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
+
+	virtual void Deinitialize() override;
+
+public:
+	FOnSeasonChanged SeasonChange;
 };
